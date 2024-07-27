@@ -26,12 +26,14 @@ body {
 .font-color {
   color: #e6533c;
 }
-.btn-color {
+.banner-btn {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
   background-color: #e6533c;
-  padding: 10px 20px;
-  color: white;
-  border-radius: 45px;
-  font-size: 1.125rem;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
 }
 /* Sharing Style End Here */
 
@@ -56,9 +58,126 @@ body {
   color: white;
   font-size: 1.125rem;
 }
-.ham-burger{
+.btn-color {
+  background-color: #e6533c;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 45px;
+  font-size: 1.125rem;
+  border: none;
+}
+.ham-burger {
   color: white;
   font-size: 2rem;
   display: none;
 }
 /* Nav Bar Style End Here */
+
+/* Banner-Section Style Start Here */
+.banner-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-description {
+  width: 480px;
+  margin-left: 53px;
+}
+.banner-description h2 {
+  font-size: 4.6rem;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 80px;
+}
+.banner-description h2 #fonts {
+  font-family: "miama", sans-serif;
+  font-weight: 400;
+  font-size: 8rem;
+}
+.banner-description p {
+  font-size: 1rem;
+  color: #fff;
+  opacity: 0.4;
+  margin-bottom: 25px;
+}
+.banner-button {
+  gap: 15px;
+}
+#banner-btn-2 {
+  font-size: 1rem;
+  color: #fff;
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
+}
+.banner-img img {
+  min-height: 100px;
+}
+.banner-img {
+  position: relative;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 75px;
+  left: -90px;
+  padding: 20px 20px 20px 55px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.bottom-left h6 {
+  color: #fafaf9;
+  font-size: 1.5rem;
+}
+.bottom-left p {
+  color: #fafaf9;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.play-button {
+  position: absolute;
+  bottom: 24px;
+  left: 7px;
+  display: grid;
+  place-items: center;
+  font-size: 80px;
+  color: #fafaf9;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #e6533c;
+  color: pointer;
+}
+.play-button::before {
+  content: "";
+  display: inline-block;
+  border-left: 10px solid;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.top-right {
+  position: absolute;
+  top: 118px;
+  right: -62px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.top-right h6 {
+  color: #ffffff;
+  font-size: 2.1rem;
+}
+.top-right p {
+  color: #fafaf9;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+/* Banner-Section Style End Here */

@@ -1,5 +1,6 @@
 /* Small Device Responsive Start Here */
 @media screen and (max-width: 576px) {
+  /* Nav Bar Responsive Start Here */
   .nav-container {
     flex-direction: row;
     margin-top: 30px;
@@ -17,13 +18,48 @@
     margin-right: 30px;
     display: block;
   }
+  /* Nav Bar Responsive End Here */
+
+  /* Banner-Section Responsive Start Here */
+  .banner-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -35px;
+  }
+  .banner-description {
+    width: auto;
+  }
+  .banner-description h2 {
+    font-size: 2.9rem;
+  }
+  .banner-img {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .bottom-left {
+    bottom: 248px;
+    left: -8px;
+  }
+  .top-right {
+    top: 61px;
+    right: -44px;
+  }
+  /* Banner-Section Responsive End Here */
 }
 /* Small Device Responsive End Here */
 
 /* Medium Device Responsive Start Here */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Nav Bar Responsive Start Here */
   .nav-list ul {
     gap: 25px;
   }
+  /* Nav Bar Responsive End Here */
+
+  /* Banner-Section Responsive Start Here */
+  .bottom-left {
+    left: -9px;
+  }
+  /* Banner-Section Responsive End Here */
 }
 /* Medium Device Responsive Start Here */
