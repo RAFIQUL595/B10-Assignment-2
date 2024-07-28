@@ -23,6 +23,9 @@ body {
 .display-flex {
   display: flex;
 }
+.display-grid {
+  display: grid;
+}
 .font-color {
   color: #e6533c;
 }
@@ -114,10 +117,7 @@ body {
   border-radius: 42px;
   padding: 16px 40px 16px 40px;
 }
-.banner-img img {
-  min-height: 100px;
-}
-.banner-img {
+.banner-img{
   position: relative;
 }
 .bottom-left {
@@ -181,3 +181,50 @@ body {
   opacity: 0.5;
 }
 /* Banner-Section Style End Here */
+
+/* Habits-Section Style Start Here */
+.habits-section {
+  max-width: 1440px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.habits-description {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.habits-description h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.habits-description p {
+  font-size: 0.9rem;
+  color: #fff;
+  opacity: 0.4;
+  line-height: 1.3em;
+}
+.habits-group {
+  margin-top: 60px;
+  max-width: 100%;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+}
+.habits-group-1 img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.habits-group-1 h6 {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.habits-group-1 p {
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0.4;
+  line-height: 1.3em;
+}
+/* Habits-Section Style End Here */

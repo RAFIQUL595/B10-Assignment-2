@@ -45,6 +45,22 @@
     right: -44px;
   }
   /* Banner-Section Responsive End Here */
+
+  /* Habits-Section Responsive Start Here */
+  .habits-section {
+    margin-top: 450px;
+  }
+  .habits-description h2 {
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+  .habits-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .habits-group-1 img {
+    margin-top: 40px;
+  }
+  /* Habits-Section Responsive End Here */
 }
 /* Small Device Responsive End Here */
 
@@ -61,5 +77,14 @@
     left: -9px;
   }
   /* Banner-Section Responsive End Here */
+
+  /* Habits-Section Responsive Start Here */
+  .habits-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .habits-group-1 img {
+    margin-top: 40px;
+  }
+  /* Habits-Section Responsive End Here */
 }
 /* Medium Device Responsive Start Here */
